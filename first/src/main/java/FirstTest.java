@@ -1,27 +1,24 @@
+import Owl.NightOwl;
+
 public class FirstTest {
-	
-	public static void main (String[] args) {
-		helloTest();
-		helloTest2( "для примера");
-		System.out.println(helloTest3(3,5));
-	}
-	public static void helloTest ()
-		{
-			System.out.println("Текст");
 
-		}
+    public static void main(String[] args) {
+        NightOwl owl = new NightOwl();
+
+        owl.owlHeight = 666.1;
+        displayHeight(owl);
+
+    }
 
 
-	public static void helloTest2(String text)
-	{
-		System.out.println("Текст " + text);
+    public static void displayHeight(NightOwl myOwl) {
+        System.out.println("Сова большая, ее рост = " + getNightOwlHeight(myOwl));
+    }
 
-	}
-	public static String helloTest3(int value1, int value2)
-	{
-		return "Числа для примера "+value1+"+"+value2;
-	}
-
+public static double getNightOwlHeight(NightOwl owl)
+{
+    return owl.owlHeight;
+}
 
 
 }
