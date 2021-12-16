@@ -11,13 +11,10 @@ public class FirstTest {
 
 
     public static void displayHeight(NightOwl myOwl) {
-        System.out.println("Сова большая, ее рост = " + getNightOwlHeight(myOwl));
+        System.out.println("Сова большая, ее рост = " + myOwl.getOwlHeight());
     }
 
-public static double getNightOwlHeight(NightOwl owl)
-{
-    return owl.owlHeight;
-}
+
 
 
 }

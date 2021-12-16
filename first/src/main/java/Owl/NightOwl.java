@@ -14,5 +14,9 @@ public class NightOwl {
 
     }
 
+    public double getOwlHeight(){
+        return this.owlHeight;
+
+    }
 
 }
