@@ -5,5 +5,14 @@ public class NightOwl {
 
     public double owlHeight;
 
+    public NightOwl (double height)
+    {
+        this.owlHeight=height;
+    }
+
+    public NightOwl() {
+
+    }
+
 
 }

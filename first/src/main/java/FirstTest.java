@@ -3,9 +3,8 @@ import Owl.NightOwl;
 public class FirstTest {
 
     public static void main(String[] args) {
-        NightOwl owl = new NightOwl();
+        NightOwl owl = new NightOwl(666.8);
 
-        owl.owlHeight = 666.1;
         displayHeight(owl);
 
     }
